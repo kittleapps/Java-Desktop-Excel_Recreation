@@ -3,11 +3,12 @@ package com.kittleapps.ExcellRecreation;
 import java.awt.Toolkit;
 
 public class Storage {
-	public static int 
+	public static int
 		windowSizeX, windowSizeY,
 		windowPositionX, windowPositionY,
 		DaysToDocument
 	;
+	public static double PayPerMile = 0.50;
 
 	public static void init() {
 		windowSizeX = 950;
